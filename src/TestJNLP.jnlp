@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jnlp spec = "1.0+"
+      codebase="file:C:/proestart/test"
+      href="TestJNLP.jnlp">
+    <information>
+        <title>Test JNLP demo opp</title>
+        <vendor>protocode</vendor>
+        <description> OOO it is rules tehnologi, may be</description>
+        <description kind="short">demochka</description>
+        <offline-allowed/>
+    </information>
+    <resoueces>
+        <j2se version="1.3+"
+              href="http://java.sun.com/products/autodl/j2se/"/>
+        <jar href="onono.jar" download="eager"/>
+    </resoueces>
+    <application-desc main-class="testEkkel.SwingEkkel"/>
+</jnlp>
